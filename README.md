@@ -1,15 +1,6 @@
-# Ataa v3 — AI-assisted bid workspace
+# Ataa — AI-assisted bid workspace
 
 A runnable React + Node prototype with persistent SQLite storage and checkpointed agent workflows for the Presight assessment. One RFQ scope branches into Architect, Accelerator or Expert Tool, then converges at human review.
-
-## What changed in v3
-
-- SQLite project storage with saved revisions, audit events and durable jobs.
-- Original RFQs retained in a local file store; PDF downloads also archived by revision.
-- Interrupted workflows can resume after their last committed stage or be discarded.
-- **Data & storage** navigation plus **Project data** for files, revisions and run history.
-- Reference data and prompts pinned by version for each run.
-- Automatic one-time import of old `runtime/bids.json` and an offline backup command.
 
 Start with [the implemented architecture](docs/ARCHITECTURE.md) and [data/storage, upgrade and backup instructions](docs/DATA_AND_STORAGE.md). This is phase one of the architecture implementation, still a local single-user app; no new Azure storage services are needed.
 
@@ -193,43 +184,3 @@ Optional full browser workflow checks (create synthetic test bids in an isolated
 npx playwright install chromium
 npm run test:ui
 ```
-
-See `docs/VALIDATION.md` for the checks run during delivery and their limits.
-
-## 10. Troubleshooting
-
-| Symptom | What to check |
-|---|---|
-| Page shows a connection/API error | Run `npm run dev` from the project root. Both api and web processes must run. |
-| Live AI banner still says unconfigured | `.env` must be beside `package.json`; fill all three Azure values and set ENABLE_LIVE_AI=true, then restart. |
-| Azure 401 / 403 | Key, resource access and network restrictions. |
-| Azure 404 | Resource endpoint and actual deployment name. Do not use the portal/project URL. |
-| Azure 400 | Deployment supports JSON object output, chat completions and max_completion_tokens. |
-| Azure 429 | Tenant quota, rate limit, deployment capacity. Wait before retrying. |
-| Invalid JSON / missing required product | Review RFQ and catalog, retry, or adjust prompts and schemas together. Unsupported outputs are rejected. |
-| PDF has no readable text | Use OCR externally or upload text/DOCX. |
-| Vite proxy fails after changing PORT | Default proxy uses 3001; update vite.config.js if changing the API port in development. |
-| Use a fresh workspace | Stop the app, back it up, then set ATAA_DATA_DIR to a new empty directory. See docs/DATA_AND_STORAGE.md. |
-| SQLite import/module error | Use Node 24.x, then run npm ci again. |
-| Data directory already in use | Stop the other API process before restarting or backing up. |
-| Run interrupted | Open the bid and choose Resume interrupted workflow or Discard interrupted run. |
-| Font appears different offline | Remote font loading is optional; local Arial/sans-serif fallbacks keep the app usable. |
-
-## File map
-
-- `src/App.jsx`, `src/styles.css`: responsive workspace and all user flows.
-- `server/index.js`: API, approval, uploads, file downloads and component wiring.
-- `server/orchestrator.js`, `server/workflows.js`: checkpoints, recovery and specialized tasks.
-- `server/storage/`: SQLite repository and local object store.
-- `src/DataStorage.jsx`: storage overview, project files, revisions and run history.
-- `scripts/backup.js`: offline backup of database and file objects together.
-- `server/azure.js`: server-side Azure adapter and prompt loading.
-- `shared/engine.js`: ranking, deltas, catalog totals, service calculator and reference validation.
-- `shared/schemas.js`: enforceable LLM output contracts.
-- `prompts/*.txt`: four runtime prompt files.
-- `data/*.json`: synthetic inputs and demo responses.
-- `docs/original-prompts/*.txt`: the prior planning prompts, preserved for reference.
-- `.env.example`: safe environment template.
-- `tests/`: unit, API and browser workflow checks.
-
-Build your presentation around what actually works: structured extraction, specialized prompt orchestration, catalog grounding, deterministic retrieval/calculation, explicit provenance, and a human decision gate. Production GraphRAG, MCP, enterprise identity and system integrations remain future architecture.
