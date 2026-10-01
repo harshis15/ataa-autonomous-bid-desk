@@ -1,0 +1,190 @@
+{
+  "title": "SCADA logical plant architecture",
+  "nodes": [
+    {
+      "id": "N1",
+      "label": "SCADA servers",
+      "type": "server",
+      "bom_item_id": "BOM-001",
+      "quantity": 2,
+      "layer": 1,
+      "reason": "Redundant application servers, two units."
+    },
+    {
+      "id": "N2",
+      "label": "Engineering stations",
+      "type": "workstation",
+      "bom_item_id": "BOM-002",
+      "quantity": 3,
+      "layer": 0,
+      "reason": "Three engineering workstations."
+    },
+    {
+      "id": "N3",
+      "label": "Operator stations",
+      "type": "workstation",
+      "bom_item_id": "BOM-003",
+      "quantity": 3,
+      "layer": 0,
+      "reason": "Three operator workstations."
+    },
+    {
+      "id": "N4",
+      "label": "Control network",
+      "type": "network",
+      "bom_item_id": "BOM-004",
+      "quantity": 4,
+      "layer": 2,
+      "reason": "Four managed network switches supporting redundant paths."
+    },
+    {
+      "id": "N5",
+      "label": "Control cabinets",
+      "type": "cabinet",
+      "bom_item_id": "BOM-005",
+      "quantity": 12,
+      "layer": 4,
+      "reason": "Twelve control cabinets."
+    },
+    {
+      "id": "N6",
+      "label": "Process controllers",
+      "type": "controller",
+      "bom_item_id": "BOM-006",
+      "quantity": 12,
+      "layer": 3,
+      "reason": "One process controller per cabinet, twelve total."
+    },
+    {
+      "id": "N7",
+      "label": "SCADA runtime",
+      "type": "software",
+      "bom_item_id": "BOM-007",
+      "quantity": 2,
+      "layer": 1,
+      "reason": "Two SCADA runtime instance licenses."
+    },
+    {
+      "id": "N8",
+      "label": "Historian",
+      "type": "software",
+      "bom_item_id": "BOM-008",
+      "quantity": 1,
+      "layer": 1,
+      "reason": "One historian instance license."
+    },
+    {
+      "id": "N9",
+      "label": "Industrial firewalls",
+      "type": "firewall",
+      "bom_item_id": "BOM-009",
+      "quantity": 2,
+      "layer": 2,
+      "reason": "Two industrial firewalls."
+    },
+    {
+      "id": "N10",
+      "label": "OPC UA interface",
+      "type": "software",
+      "bom_item_id": "BOM-010",
+      "quantity": 1,
+      "layer": 3,
+      "reason": "One OPC UA interface license for the existing PLC system."
+    },
+    {
+      "id": "N11",
+      "label": "Existing PLC system via OPC UA",
+      "type": "external",
+      "bom_item_id": null,
+      "quantity": 1,
+      "layer": 4,
+      "reason": "Existing external system explicitly listed in scope."
+    }
+  ],
+  "edges": [
+    {
+      "id": "E1",
+      "source": "N2",
+      "target": "N4",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E2",
+      "source": "N3",
+      "target": "N4",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E3",
+      "source": "N1",
+      "target": "N4",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E4",
+      "source": "N1",
+      "target": "N7",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E5",
+      "source": "N1",
+      "target": "N8",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E6",
+      "source": "N4",
+      "target": "N9",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E7",
+      "source": "N9",
+      "target": "N6",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E8",
+      "source": "N6",
+      "target": "N5",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E9",
+      "source": "N4",
+      "target": "N10",
+      "label": "Logical connection",
+      "protocol": null,
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    },
+    {
+      "id": "E10",
+      "source": "N10",
+      "target": "N11",
+      "label": "OPC UA",
+      "protocol": "OPC UA",
+      "basis": "Proposed logical connection; physical topology and interface details require review."
+    }
+  ],
+  "assumptions": [
+    "Logical groupings show quantities; redundant cabling, failure domains and physical ports require detailed design."
+  ],
+  "issues": []
+}

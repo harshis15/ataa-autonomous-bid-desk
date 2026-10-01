@@ -1,0 +1,108 @@
+{
+  "items": [
+    {
+      "id": "BOM-001",
+      "part_number": "SRV-RM-001",
+      "quantity": 2,
+      "requirement_ids": [
+        "REQ-001"
+      ],
+      "reason": "Redundant application servers, two units.",
+      "quantity_basis": "Explicit RFQ quantity: 2"
+    },
+    {
+      "id": "BOM-002",
+      "part_number": "WS-ENG-001",
+      "quantity": 3,
+      "requirement_ids": [
+        "REQ-002"
+      ],
+      "reason": "Three engineering workstations.",
+      "quantity_basis": "Explicit RFQ quantity: 3"
+    },
+    {
+      "id": "BOM-003",
+      "part_number": "WS-OPS-001",
+      "quantity": 3,
+      "requirement_ids": [
+        "REQ-003"
+      ],
+      "reason": "Three operator workstations.",
+      "quantity_basis": "Explicit RFQ quantity: 3"
+    },
+    {
+      "id": "BOM-004",
+      "part_number": "SW-024",
+      "quantity": 4,
+      "requirement_ids": [
+        "REQ-004"
+      ],
+      "reason": "Four managed network switches supporting redundant paths.",
+      "quantity_basis": "Explicit RFQ quantity: 4"
+    },
+    {
+      "id": "BOM-005",
+      "part_number": "CAB-001",
+      "quantity": 12,
+      "requirement_ids": [
+        "REQ-005"
+      ],
+      "reason": "Twelve control cabinets.",
+      "quantity_basis": "Explicit RFQ quantity: 12"
+    },
+    {
+      "id": "BOM-006",
+      "part_number": "CTRL-001",
+      "quantity": 12,
+      "requirement_ids": [
+        "REQ-006"
+      ],
+      "reason": "One process controller per cabinet, twelve total.",
+      "quantity_basis": "Explicit RFQ quantity: 12"
+    },
+    {
+      "id": "BOM-007",
+      "part_number": "LIC-SCADA-001",
+      "quantity": 2,
+      "requirement_ids": [
+        "REQ-007"
+      ],
+      "reason": "Two SCADA runtime instance licenses.",
+      "quantity_basis": "Explicit RFQ quantity: 2"
+    },
+    {
+      "id": "BOM-008",
+      "part_number": "LIC-HIST-001",
+      "quantity": 1,
+      "requirement_ids": [
+        "REQ-008"
+      ],
+      "reason": "One historian instance license.",
+      "quantity_basis": "Explicit RFQ quantity: 1"
+    },
+    {
+      "id": "BOM-009",
+      "part_number": "FW-IND-001",
+      "quantity": 2,
+      "requirement_ids": [
+        "REQ-009"
+      ],
+      "reason": "Two industrial firewalls.",
+      "quantity_basis": "Explicit RFQ quantity: 2"
+    },
+    {
+      "id": "BOM-010",
+      "part_number": "LIC-OPC-001",
+      "quantity": 1,
+      "requirement_ids": [
+        "REQ-010"
+      ],
+      "reason": "One OPC UA interface license for the existing PLC system.",
+      "quantity_basis": "Explicit RFQ quantity: 1"
+    }
+  ],
+  "gaps": [],
+  "assumptions": [
+    "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+  ]
+}

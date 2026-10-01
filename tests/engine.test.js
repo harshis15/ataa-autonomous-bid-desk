@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import Ajv from 'ajv';
+import {schemas} from '../shared/schemas.js';
+import {rankProjects,baselineDelta,priceBOM,requiredRuleIds,calculateServices,assertReferences} from '../shared/engine.js';
+const read=n=>JSON.parse(fs.readFileSync(new URL('../data/'+n,import.meta.url)));
+const scope=read('SampleScope.json'),bom=read('SampleBOM.json'),arch=read('SampleArchitecture.json'),catalog=read('ProductCatalog.json'),projects=read('HistoricalProjects.json'),rules=read('ServiceRules.json').rules;
+test('demo fixtures conform to runtime schemas and reference invariants',()=>{const ajv=new Ajv();for(const [key,value] of Object.entries({scope,bom,architecture:arch})){const validator=ajv.compile(schemas[key]);assert.ok(validator(value),ajv.errorsText(validator.errors));assertReferences(key,value,scope,bom);}});
+test('retrieval ranks consistently and exposes score components',()=>{const ranked=rankProjects(scope,projects);assert.equal(ranked[0].id,'PRJ-001');assert.equal(ranked.length,10);assert.ok(ranked.every((p,i)=>i===0||p.score<=ranked[i-1].score));assert.equal(ranked[0].criteria.length,6);assert.equal(baselineDelta(scope,ranked[0])[0].delta,2);});
+test('hours are deterministic, exclude unsupported support, and reconcile',()=>{const result=calculateServices({rule_ids:requiredRuleIds(scope,rules),notes:[]},scope,bom,catalog,rules);assert.equal(result.total_hours,195.8);assert.equal(result.unresolved[0].activity,'Support');assert.equal(result.lines.find(x=>x.id==='SVC-PM').hours,17.8);assert.equal(priceBOM(bom,catalog).length,10);});
+test('missing quantities are excluded, not made up',()=>{const s=structuredClone(scope);s.quantities.find(q=>q.item==='Commissioning engineer-days').value=null;const r=calculateServices({rule_ids:requiredRuleIds(s,rules),notes:[]},s,bom,catalog,rules);assert.ok(r.unresolved.some(x=>x.activity==='Site commissioning'));assert.equal(r.total_hours,169.4);});
+test('hallucinated products, rule IDs and excess node allocations are rejected',()=>{assert.throws(()=>priceBOM({items:[{part_number:'FAKE'}]},catalog),/Unknown/);assert.throws(()=>calculateServices({rule_ids:['FAKE'],notes:[]},scope,bom,catalog,rules),/Unknown/);const a=structuredClone(arch);a.nodes[0].quantity=999;assert.throws(()=>assertReferences('architecture',a,scope,bom),/over-allocates/);});
+test('duplicate or omitted rules cannot silently understate totals',()=>{const ids=requiredRuleIds(scope,rules);assert.throws(()=>calculateServices({rule_ids:[...ids,ids[0]],notes:[]},scope,bom,catalog,rules),/Duplicate/);assert.throws(()=>calculateServices({rule_ids:ids.slice(1),notes:[]},scope,bom,catalog,rules),/missing/);});

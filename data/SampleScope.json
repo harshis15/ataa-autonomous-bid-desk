@@ -1,0 +1,279 @@
+{
+  "project": {
+    "customer": "Alpha Energy",
+    "name": "SCADA Modernization",
+    "country": "UAE",
+    "industry": "Oil & Gas"
+  },
+  "system": {
+    "type": "SCADA",
+    "architecture": "Redundant"
+  },
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "text": "Redundant application servers, two units.",
+      "category": "hardware",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a71"
+    },
+    {
+      "id": "REQ-002",
+      "text": "Three engineering workstations.",
+      "category": "hardware",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a72"
+    },
+    {
+      "id": "REQ-003",
+      "text": "Three operator workstations.",
+      "category": "hardware",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a73"
+    },
+    {
+      "id": "REQ-004",
+      "text": "Four managed network switches supporting redundant paths.",
+      "category": "network",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a74"
+    },
+    {
+      "id": "REQ-005",
+      "text": "Twelve control cabinets.",
+      "category": "hardware",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a75"
+    },
+    {
+      "id": "REQ-006",
+      "text": "One process controller per cabinet, twelve total.",
+      "category": "hardware",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a76"
+    },
+    {
+      "id": "REQ-007",
+      "text": "Two SCADA runtime instance licenses.",
+      "category": "software",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a77"
+    },
+    {
+      "id": "REQ-008",
+      "text": "One historian instance license.",
+      "category": "software",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a78"
+    },
+    {
+      "id": "REQ-009",
+      "text": "Two industrial firewalls.",
+      "category": "cybersecurity",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a79"
+    },
+    {
+      "id": "REQ-010",
+      "text": "One OPC UA interface license for the existing PLC system.",
+      "category": "interface",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a710"
+    },
+    {
+      "id": "REQ-011",
+      "text": "Engineering and system configuration included.",
+      "category": "service",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a711"
+    },
+    {
+      "id": "REQ-012",
+      "text": "Factory acceptance testing (FAT) required.",
+      "category": "testing",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a712"
+    },
+    {
+      "id": "REQ-013",
+      "text": "Site commissioning: three engineer-days.",
+      "category": "service",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a713"
+    },
+    {
+      "id": "REQ-014",
+      "text": "Operator training: one session.",
+      "category": "training",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a714"
+    },
+    {
+      "id": "REQ-015",
+      "text": "Support for three years; service coverage and SLA to be clarified.",
+      "category": "support",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a715"
+    },
+    {
+      "id": "REQ-016",
+      "text": "Delivery within 24 weeks; project management included.",
+      "category": "schedule",
+      "mandatory": true,
+      "source": "AlphaEnergy_SCADA_RFQ.txt \u00a716"
+    }
+  ],
+  "quantities": [
+    {
+      "id": "QTY-001",
+      "item": "Application servers",
+      "value": 2,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-001"
+      ]
+    },
+    {
+      "id": "QTY-002",
+      "item": "Engineering workstations",
+      "value": 3,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-002"
+      ]
+    },
+    {
+      "id": "QTY-003",
+      "item": "Operator workstations",
+      "value": 3,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-003"
+      ]
+    },
+    {
+      "id": "QTY-004",
+      "item": "Managed switches",
+      "value": 4,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-004"
+      ]
+    },
+    {
+      "id": "QTY-005",
+      "item": "Control cabinets",
+      "value": 12,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-005"
+      ]
+    },
+    {
+      "id": "QTY-006",
+      "item": "Controllers",
+      "value": 12,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-006"
+      ]
+    },
+    {
+      "id": "QTY-007",
+      "item": "SCADA licenses",
+      "value": 2,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-007"
+      ]
+    },
+    {
+      "id": "QTY-008",
+      "item": "Historian licenses",
+      "value": 1,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-008"
+      ]
+    },
+    {
+      "id": "QTY-009",
+      "item": "Firewalls",
+      "value": 2,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-009"
+      ]
+    },
+    {
+      "id": "QTY-010",
+      "item": "OPC UA licenses",
+      "value": 1,
+      "unit": "each",
+      "requirement_ids": [
+        "REQ-010"
+      ]
+    },
+    {
+      "id": "QTY-011",
+      "item": "Commissioning engineer-days",
+      "value": 3,
+      "unit": "engineer-days",
+      "requirement_ids": [
+        "REQ-013"
+      ]
+    },
+    {
+      "id": "QTY-012",
+      "item": "Training sessions",
+      "value": 1,
+      "unit": "sessions",
+      "requirement_ids": [
+        "REQ-014"
+      ]
+    }
+  ],
+  "services": [
+    "Engineering",
+    "Configuration",
+    "FAT",
+    "Commissioning",
+    "Training",
+    "Support",
+    "Project management"
+  ],
+  "constraints": {
+    "delivery_weeks": 24,
+    "support_years": 3,
+    "currency": "AED"
+  },
+  "interfaces": [
+    "Existing PLC system via OPC UA",
+    "Historian"
+  ],
+  "standards": [],
+  "assumptions": [],
+  "clarifications": [
+    {
+      "id": "CLR-001",
+      "question": "Confirm the required cybersecurity standard and acceptance criteria.",
+      "severity": "medium",
+      "resolved": false,
+      "answer": null
+    },
+    {
+      "id": "CLR-002",
+      "question": "Confirm the three-year support SLA and coverage hours.",
+      "severity": "medium",
+      "resolved": false,
+      "answer": null
+    },
+    {
+      "id": "CLR-003",
+      "question": "Confirm legacy PLC interface documentation and access availability.",
+      "severity": "medium",
+      "resolved": false,
+      "answer": null
+    }
+  ]
+}

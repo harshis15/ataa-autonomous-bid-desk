@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "synthetic": true,
+  "rules": [
+    {
+      "id": "SVC-BASE",
+      "activity": "Base engineering",
+      "category": "Engineering",
+      "service": "Engineering",
+      "driver": "fixed",
+      "rate": 16
+    },
+    {
+      "id": "SVC-SERVER",
+      "activity": "Server configuration",
+      "category": "Configuration",
+      "service": "Configuration",
+      "driver": "category",
+      "product_category": "Industrial Server",
+      "rate": 6
+    },
+    {
+      "id": "SVC-WORKSTATION",
+      "activity": "Workstation configuration",
+      "category": "Configuration",
+      "service": "Configuration",
+      "driver": "categories",
+      "product_categories": [
+        "Engineering Workstation",
+        "Operator Workstation"
+      ],
+      "rate": 3
+    },
+    {
+      "id": "SVC-SWITCH",
+      "activity": "Switch configuration",
+      "category": "Configuration",
+      "service": "Configuration",
+      "driver": "category",
+      "product_category": "Managed Switch",
+      "rate": 2
+    },
+    {
+      "id": "SVC-CONTROLLER",
+      "activity": "Controller configuration",
+      "category": "Configuration",
+      "service": "Configuration",
+      "driver": "category",
+      "product_category": "Controller",
+      "rate": 5
+    },
+    {
+      "id": "SVC-FIREWALL",
+      "activity": "Firewall configuration",
+      "category": "Configuration",
+      "service": "Configuration",
+      "driver": "category",
+      "product_category": "Firewall",
+      "rate": 4
+    },
+    {
+      "id": "SVC-FAT",
+      "activity": "Factory acceptance test",
+      "category": "Testing",
+      "service": "FAT",
+      "driver": "fixed",
+      "rate": 24
+    },
+    {
+      "id": "SVC-COMMISSION",
+      "activity": "Site commissioning",
+      "category": "Commissioning",
+      "service": "Commissioning",
+      "driver": "scope_quantity",
+      "quantity_item": "Commissioning engineer-days",
+      "rate": 8
+    },
+    {
+      "id": "SVC-TRAIN",
+      "activity": "Operator training",
+      "category": "Training",
+      "service": "Training",
+      "driver": "scope_quantity",
+      "quantity_item": "Training sessions",
+      "rate": 8
+    },
+    {
+      "id": "SVC-PM",
+      "activity": "Project management",
+      "category": "Project management",
+      "service": "Project management",
+      "driver": "percentage",
+      "rate": 10,
+      "base": "all_non_percentage_lines"
+    }
+  ],
+  "unsupported_services": [
+    "Support"
+  ],
+  "notes": "Rates are fictional demonstration rules, not engineering benchmarks."
+}

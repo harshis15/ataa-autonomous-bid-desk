@@ -1,0 +1,222 @@
+[
+  {
+    "part_number": "SRV-RM-001",
+    "category": "Industrial Server",
+    "description": "Rack mount application server",
+    "unit_price": 12000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "WS-ENG-001",
+    "category": "Engineering Workstation",
+    "description": "Engineering workstation",
+    "unit_price": 6000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "WS-OPS-001",
+    "category": "Operator Workstation",
+    "description": "Operator workstation",
+    "unit_price": 5000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "SW-024",
+    "category": "Managed Switch",
+    "description": "24-port industrial managed switch",
+    "unit_price": 2500,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "FW-IND-001",
+    "category": "Firewall",
+    "description": "Industrial security appliance",
+    "unit_price": 4500,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "CTRL-001",
+    "category": "Controller",
+    "description": "Modular process controller",
+    "unit_price": 4800,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "IO-DI-016",
+    "category": "I/O Module",
+    "description": "16-channel digital input module",
+    "unit_price": 700,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "IO-AI-008",
+    "category": "I/O Module",
+    "description": "8-channel analog input module",
+    "unit_price": 900,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "CAB-001",
+    "category": "Control Cabinet",
+    "description": "Industrial control cabinet",
+    "unit_price": 8000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "LIC-SCADA-001",
+    "category": "SCADA License",
+    "description": "SCADA server instance license",
+    "unit_price": 18000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "LIC-HIST-001",
+    "category": "Historian License",
+    "description": "Historian instance license",
+    "unit_price": 14000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "STOR-001",
+    "category": "Storage",
+    "description": "Industrial storage appliance",
+    "unit_price": 7000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "UPS-001",
+    "category": "UPS",
+    "description": "Rack UPS assembly",
+    "unit_price": 3500,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "CABLE-001",
+    "category": "Network Accessory",
+    "description": "Network patch cable",
+    "unit_price": 60,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "SFP-001",
+    "category": "Network Accessory",
+    "description": "Optical transceiver",
+    "unit_price": 250,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "WS-OPS-002",
+    "category": "Operator Workstation",
+    "description": "Rugged operator workstation",
+    "unit_price": 7500,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "SRV-RM-002",
+    "category": "Industrial Server",
+    "description": "Higher-capacity application server",
+    "unit_price": 18000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "SW-008",
+    "category": "Managed Switch",
+    "description": "8-port industrial managed switch",
+    "unit_price": 1400,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": true,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "LIC-OPC-001",
+    "category": "Interface License",
+    "description": "OPC UA interface license",
+    "unit_price": 3000,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  },
+  {
+    "part_number": "TRAIN-001",
+    "category": "Training Kit",
+    "description": "Operator training kit",
+    "unit_price": 800,
+    "currency": "AED",
+    "unit": "each",
+    "redundancy_supported": false,
+    "environment": "Industrial",
+    "synthetic": true
+  }
+]

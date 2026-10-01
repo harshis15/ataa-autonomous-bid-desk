@@ -1,0 +1,43 @@
+ALPHA ENERGY — SCADA MODERNIZATION
+SYNTHETIC RFQ FOR PROTOTYPE DEMONSTRATION ONLY
+
+Customer: Alpha Energy
+Project: SCADA Modernization
+Country: UAE
+Industry: Oil & Gas
+System: SCADA, redundant architecture
+Currency: AED
+
+§1 Redundant application servers, two units.
+
+§2 Three engineering workstations.
+
+§3 Three operator workstations.
+
+§4 Four managed network switches supporting redundant paths.
+
+§5 Twelve control cabinets.
+
+§6 One process controller per cabinet, twelve total.
+
+§7 Two SCADA runtime instance licenses.
+
+§8 One historian instance license.
+
+§9 Two industrial firewalls.
+
+§10 One OPC UA interface license for the existing PLC system.
+
+§11 Engineering and system configuration included.
+
+§12 Factory acceptance testing (FAT) required.
+
+§13 Site commissioning: three engineer-days.
+
+§14 Operator training: one session.
+
+§15 Support for three years; service coverage and SLA to be clarified.
+
+§16 Delivery within 24 weeks; project management included.
+
+The historian is a logical software component. Network port assignments and cybersecurity certification are not supplied. Product data, prices and service rules used in this demo are fictional.

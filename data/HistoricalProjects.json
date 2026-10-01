@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "PRJ-001",
+    "name": "UAE SCADA Expansion",
+    "customer": "Synthetic client 1",
+    "country": "UAE",
+    "industry": "Oil & Gas",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 10,
+    "delivery_weeks": 28,
+    "support_years": 3,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2125000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 10,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 10,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-002",
+    "name": "Qatar Terminal Modernization",
+    "customer": "Synthetic client 2",
+    "country": "Qatar",
+    "industry": "Oil & Gas",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 14,
+    "delivery_weeks": 26,
+    "support_years": 2,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2250000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 14,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 14,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-003",
+    "name": "Oman Control Upgrade",
+    "customer": "Synthetic client 3",
+    "country": "Oman",
+    "industry": "Oil & Gas",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 12,
+    "delivery_weeks": 30,
+    "support_years": 3,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2375000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 12,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 12,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-004",
+    "name": "UAE Utilities SCADA",
+    "customer": "Synthetic client 4",
+    "country": "UAE",
+    "industry": "Utilities",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 8,
+    "delivery_weeks": 24,
+    "support_years": 2,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2500000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 8,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 8,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-005",
+    "name": "Saudi Terminal Automation",
+    "customer": "Synthetic client 5",
+    "country": "Saudi Arabia",
+    "industry": "Oil & Gas",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 18,
+    "delivery_weeks": 32,
+    "support_years": 5,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Lost",
+    "year": 2025,
+    "value": 2625000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 18,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 18,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-006",
+    "name": "UAE DCS Expansion",
+    "customer": "Synthetic client 6",
+    "country": "UAE",
+    "industry": "Oil & Gas",
+    "system": "DCS",
+    "architecture": "Redundant",
+    "cabinets": 12,
+    "delivery_weeks": 30,
+    "support_years": 3,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2750000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 12,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 12,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-007",
+    "name": "Dubai Water Network",
+    "customer": "Synthetic client 7",
+    "country": "UAE",
+    "industry": "Water",
+    "system": "SCADA",
+    "architecture": "Single",
+    "cabinets": 6,
+    "delivery_weeks": 20,
+    "support_years": 1,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 2875000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 6,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 6,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-008",
+    "name": "Qatar Process Control",
+    "customer": "Synthetic client 8",
+    "country": "Qatar",
+    "industry": "Utilities",
+    "system": "DCS",
+    "architecture": "Redundant",
+    "cabinets": 16,
+    "delivery_weeks": 40,
+    "support_years": 2,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Lost",
+    "year": 2025,
+    "value": 3000000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 16,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 16,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-009",
+    "name": "Oman Pumping Station",
+    "customer": "Synthetic client 9",
+    "country": "Oman",
+    "industry": "Water",
+    "system": "PLC",
+    "architecture": "Single",
+    "cabinets": 4,
+    "delivery_weeks": 16,
+    "support_years": 1,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 3125000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "PRJ-010",
+    "name": "Abu Dhabi Pipeline",
+    "customer": "Synthetic client 10",
+    "country": "UAE",
+    "industry": "Oil & Gas",
+    "system": "SCADA",
+    "architecture": "Redundant",
+    "cabinets": 20,
+    "delivery_weeks": 36,
+    "support_years": 3,
+    "services": [
+      "Engineering",
+      "Configuration",
+      "FAT",
+      "Commissioning",
+      "Training",
+      "Support",
+      "Project management"
+    ],
+    "outcome": "Won",
+    "year": 2025,
+    "value": 3250000,
+    "bom": {
+      "items": [
+        {
+          "id": "BOM-001",
+          "part_number": "SRV-RM-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-002",
+          "part_number": "WS-ENG-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-003",
+          "part_number": "WS-OPS-001",
+          "quantity": 3,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-004",
+          "part_number": "SW-024",
+          "quantity": 4,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-005",
+          "part_number": "CAB-001",
+          "quantity": 20,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-006",
+          "part_number": "CTRL-001",
+          "quantity": 20,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-007",
+          "part_number": "LIC-SCADA-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-008",
+          "part_number": "LIC-HIST-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-009",
+          "part_number": "FW-IND-001",
+          "quantity": 2,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        },
+        {
+          "id": "BOM-010",
+          "part_number": "LIC-OPC-001",
+          "quantity": 1,
+          "requirement_ids": [],
+          "reason": "Historical baseline item; applicability to current RFQ must be reviewed.",
+          "quantity_basis": "Stored synthetic historical project"
+        }
+      ],
+      "gaps": [],
+      "assumptions": [
+        "Synthetic catalog demonstrates selection only; vendor qualification and sizing require engineering review."
+      ]
+    },
+    "synthetic": true
+  }
+]

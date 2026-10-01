@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "rule_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "rule_ids",
+    "notes"
+  ],
+  "additionalProperties": false
+}
